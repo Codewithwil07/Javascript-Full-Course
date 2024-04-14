@@ -7,7 +7,7 @@ const willy = new Person("Willy", 20)
 const Zhouye = new Person("Zhouye", 19)
 
 Person.prototype.sayBay = function() {
-    console.log("Goodbye    ")
+    console.log("Goodbye")
 }
 
 willy.sayBay()
